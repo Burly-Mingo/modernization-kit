@@ -54,7 +54,7 @@ The methodology has 6 phases, each producing a specific deliverable with a human
 
 ```bash
 # From your project's root directory (where your legacy code lives)
-git clone https://github.com/burlymingo/modernization-kit.git /tmp/mod-kit
+git clone https://github.com/Burly-Mingo/modernization-kit.git /tmp/mod-kit
 cp -r /tmp/mod-kit/.kiro .
 cp /tmp/mod-kit/MODERNIZATION_METHODOLOGY.md .
 rm -rf /tmp/mod-kit
@@ -67,7 +67,7 @@ Then open the workspace in Kiro. That's it. The steering files activate automati
 ```bash
 # Create a workspace that contains all related applications
 mkdir my-modernization && cd my-modernization
-git clone https://github.com/burlymingo/modernization-kit.git /tmp/mod-kit
+git clone https://github.com/Burly-Mingo/modernization-kit.git /tmp/mod-kit
 cp -r /tmp/mod-kit/.kiro .
 cp /tmp/mod-kit/MODERNIZATION_METHODOLOGY.md .
 rm -rf /tmp/mod-kit
@@ -85,7 +85,7 @@ Having all applications in one workspace lets the AI see shared databases, overl
 **Start fresh (single app):**
 
 ```bash
-git clone https://github.com/burlymingo/modernization-kit.git my-modernization
+git clone https://github.com/Burly-Mingo/modernization-kit.git my-modernization
 cd my-modernization
 # Add your legacy codebase to this workspace (copy, symlink, or git submodule)
 # Open my-modernization/ in Kiro
