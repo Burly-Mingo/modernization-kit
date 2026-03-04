@@ -191,6 +191,17 @@ This kit is designed for Kiro but the methodology is IDE-agnostic. The steering 
 - Specs → task lists or project plans
 - Hooks → whatever automation the IDE supports (or manual checkpoints)
 
+
+## Codex Compatibility (No Fork Required)
+
+This kit now includes a `.codex/` compatibility layer so you can run the same methodology in Codex without forking the repo.
+
+- Kiro uses `.kiro/` (steering/specs/hooks)
+- Codex uses `.codex/` (system instructions/runbook/quality gates)
+- Both produce the same deliverables in the workspace root
+
+Start with `.codex/README.md`, then load `.codex/context/system-instructions.md` and follow `.codex/runbooks/phase-workflow.md`.
+
 ## Origin Story
 
 This methodology was developed by [Burly Mingo LLC](https://burlymingo.com) during a real modernization engagement — three legacy ASP.NET WebForms applications (VB.NET + C#, .NET 4.5-4.7, 9 SQL Server databases) being modernized to a unified platform (ASP.NET Core 9, React/Next.js, PostgreSQL, Redis, K3s). The entire process was conducted in Kiro IDE with Claude Opus 4.6, producing a 1,600-line modernization plan, business case, DR plan, staffing recommendation, and security assessments over 12+ collaborative sessions.

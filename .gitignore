@@ -20,3 +20,6 @@ Thumbs.db
 
 # Don't ignore .kiro - that's the whole point
 !.kiro/
+
+# Don't ignore .codex - Codex compatibility layer
+!.codex/
